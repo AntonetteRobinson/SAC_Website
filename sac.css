@@ -1,0 +1,103 @@
+/*This is our CSS FIle, When you editing this file to format your page use comments to separate your code 
+from others, this will make it easier for us to read your code and understand what you have done. In order to collaborate effectively, 
+When pushing changes to the repository add comments to explain your changes. Pull the css file and Create a new branch in git to save your changes. Do not commit directly to the main branch. */
+
+body {
+    background-color: #F3E8EE;
+    color: #475B63;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: #F3E8EE;
+    color: #475B63;
+    text-align: left;
+    height: 100px;
+    padding-bottom: 50px;
+
+  
+}
+header>h1{
+    
+    font-size: 62px;
+    height: 65px;
+    margin: 0;
+    padding: 5px;
+   
+
+}
+
+header>p{
+
+    margin: 0;
+    padding: 5px;
+  
+}
+
+header>nav {
+    background-color: #bacdb0;
+    text-align:left;
+    Padding: 5px;
+    height:30px;
+    
+}
+
+nav ul {
+    list-style: none; 
+    margin: 0;
+    padding: 5px; 
+}
+
+nav ul li{
+    display: inline;
+    margin-right: 25px;
+   
+  
+
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #475B63;
+
+}
+
+nav ul li.active{
+    border-bottom:3px solid #475B63;
+    padding:0;
+
+
+}
+
+
+/*footer styles*/
+
+footer {
+    background-color: #729B79;
+    min-height: 30px;
+    padding-top: 20px;
+    padding-bottom:20px;
+    padding-right:30px;
+    padding-left:30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer p {
+    font-size: 0.9em;
+    color: #fff;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+footer a:hover{
+    background-color: #000000;
+    color:#fff;
+
+}
+
