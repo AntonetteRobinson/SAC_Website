@@ -102,19 +102,61 @@ footer a:hover{
 
 }
 
-/* ALL DEVELOPMENT PAGE DROPDOWN MENU ON NAVBAR */
+
+
+
+
+
+
+
+
+/* ALL DEVELOPMENT PAGES DROPDOWN MENU ON NAVBAR */
 
 nav ul li.dropdown {
     position: relative;
+    display: inline-flex;
+    align-items: center;
 }
 
-/* The dropdown menu */
-.dropdown-menu {
+.development-link {
+    color: #475B63;
+    text-decoration: none;
+}
+
+.development-link:hover {
+    color: white;
+}
+
+.dropdown-details {
+    display: inline-block;
+    margin-left: 4px;
+}
+
+.dropdown-arrow {
+    list-style: none;
+    cursor: pointer;
+    color: #475B63;
+}
+
+/* this removes Safari's default arrow because it was messing up with the design */
+.dropdown-arrow::-webkit-details-marker {
     display: none;
+}
+
+.dropdown-arrow::after {
+    content: "▼";
+    font-size: 11px;
+}
+
+.dropdown-arrow:hover {
+    color: white;
+}
+
+.dropdown-menu {
     position: absolute;
-    top: 100%;
+    top: 30px;
     left: 0;
-    background-color: #ffffff;
+    background-color: white;
     min-width: 190px;
     margin: 0;
     padding: 6px 0;
@@ -124,13 +166,11 @@ nav ul li.dropdown {
     z-index: 1000;
 }
 
-/* The dropdown items */
 .dropdown-menu li {
     display: block;
     margin: 0;
 }
 
-/* The dropdown links */
 .dropdown-menu li a {
     display: block;
     padding: 10px 14px;
@@ -139,20 +179,9 @@ nav ul li.dropdown {
     white-space: nowrap;
 }
 
-/* Shows the dropdown list on hover */
-.dropdown:hover .dropdown-menu {
-    display: block;
-}
-
-/* Hover effect */
 .dropdown-menu li a:hover {
     background-color: #729B79;
     color: white;
-}
-
-/* Highlights development goals while hovering */
-.dropdown:hover > a {
-    color: #2f4138;
 }
 
 /* DEVELOPMENT GOALS PAGE STUFF */
