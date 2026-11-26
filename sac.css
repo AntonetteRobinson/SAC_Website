@@ -106,13 +106,87 @@ footer a:hover{
 
 
 
+/* NEWSLETTER CSS */
+
+.newsletterPage h3 {
+    text-align: center;
+    font-size: 32px;
+}
+
+.newsletterPage h4 {
+    text-align: center;
+    font-weight: normal;
+}
+
+#myForm {
+    background-color: white;
+    padding: 15px;
+    border-radius: 12px;
+}
+
+#myForm fieldset {
+    border: none;
+}
+
+#myForm legend {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#myForm label {
+    display: block;
+    width: 80%;
+    margin: 15px auto 6px;
+    text-align: left;
+    padding-left: 275px;
+    box-sizing: border-box;
+}
 
 
+#myForm input[type="text"]{
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 13px;
+    border: 1px solid black;
+    border-radius: 6px;
+    background-color: #F9F9F9;
+}
 
+#myForm input[type="email"] {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 13px;
+    border: 1px solid black;
+    border-radius: 6px;
+    background-color: #F9F9F9;
+}
 
+#myForm input[type="submit"] {
+    width: 20%;
+    display: block;
+    padding: 13px;
+    margin: 40px auto 0;
+    background-color: #729B79;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
 
-
-
+#myForm .confirmMessage {
+    width: 80%;
+    margin: 15px auto 0;
+    padding-left: 275px;
+    box-sizing: border-box;
+    text-align: left;
+    font-size: 13px;
+    color: red;
+}
 
 
 
